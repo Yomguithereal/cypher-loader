@@ -1,0 +1,37 @@
+{
+  "name": "cypher-loader",
+  "version": "0.0.1",
+  "description": "Webpack loader for cypher query files.",
+  "main": "loader.js",
+  "files": [
+    "loader.js"
+  ],
+  "scripts": {
+    "test": "webpack --config ./test/config.js --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yomguithereal/cypher-loader.git"
+  },
+  "keywords": [
+    "cypher",
+    "loader",
+    "webpack",
+    "neo4j"
+  ],
+  "author": {
+    "name": "Guillaume Plique",
+    "url": "http://github.com/Yomguithereal"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yomguithereal/cypher-loader/issues"
+  },
+  "homepage": "https://github.com/yomguithereal/cypher-loader#readme",
+  "dependencies": {
+    "decypher": "^0.5.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.12.12"
+  }
+}
