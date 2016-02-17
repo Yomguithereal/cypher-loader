@@ -1,6 +1,6 @@
 # cypher-loader
 
-A simple [webpack](https://webpack.github.io/) loader for [Cypher](http://neo4j.com/docs/stable/cypher-query-lang.html) query files.
+A simple [webpack](https://webpack.github.io/) loader for [Cypher](http://neo4j.com/docs/stable/cypher-introduction.html) query files.
 
 ## Installation
 
