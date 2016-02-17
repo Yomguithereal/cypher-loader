@@ -1,7 +1,12 @@
 var decypher = require('decypher');
 
 function output(queries) {
-  return 'module.exports = ' + JSON.stringify(queries) + ';';
+  if (typeof queries === 'string')
+    return 'module.exports = ' + JSON.stringify(queries) + ';';
+
+  return Object.keys(queries).map(function(k) {
+    return 'exports[' + JSON.stringify(k) + '] = ' + JSON.stringify(queries[k]) + ';';
+  }).join('\n');
 }
 
 module.exports = function(source) {
