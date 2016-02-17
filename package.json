@@ -1,6 +1,6 @@
 {
   "name": "cypher-loader",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Webpack loader for cypher query files.",
   "main": "loader.js",
   "files": [
@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/yomguithereal/cypher-loader#readme",
   "dependencies": {
-    "decypher": "^0.5.0"
+    "decypher": "^0.6.1"
   },
   "devDependencies": {
     "webpack": "^1.12.12"

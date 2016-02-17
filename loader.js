@@ -1,7 +1,7 @@
 var decypher = require('decypher');
 
 function output(queries) {
-  return 'module.exports = ' + JSON.stringify(queries);
+  return 'module.exports = ' + JSON.stringify(queries) + ';';
 }
 
 module.exports = function(source) {
